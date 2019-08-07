@@ -14,7 +14,7 @@ function Navbar(props) {
         <div className="navbar-brand">
           <div className="navbar-item">
             <Link to="/">
-              <img className="image" src={props.logo} alt="Logo" />
+              <img className="image navimg" src={props.logo} alt="Logo" />
             </Link>
           </div>
           <div
@@ -24,38 +24,6 @@ function Navbar(props) {
             <span />
             <span />
             <span />
-          </div>
-        </div>
-        <div className={"navbar-menu" + (menuOpen ? " is-active" : "")}>
-          <div className="navbar-end">
-            {auth.user && (
-              <div className="navbar-item has-dropdown is-hoverable">
-                <Link className="navbar-link" to="/">
-                  Account
-                </Link>
-                <div className="navbar-dropdown is-boxed">
-                  <Link className="navbar-item" to="/dashboard">
-                    Dashboard
-                  </Link>
-                  <Link
-                    className="navbar-item"
-                    to="/signout"
-                    onClick={e => {
-                      e.preventDefault();
-                      auth.signout();
-                    }}
-                  >
-                    Sign out
-                  </Link>
-                </div>
-              </div>
-            )}
-
-            {!auth.user && (
-              <Link className="navbar-item" to="/signin">
-                Sign in
-              </Link>
-            )}
           </div>
         </div>
       </div>

@@ -17,28 +17,28 @@ function FeaturesSection(props) {
         <Features
           items={[
             {
-              title: "Explore",
+              title: "!polly setup #channel",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Polly learns from your server's chatlogs to provide an experience unique to each server",
               image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
             },
             {
-              title: "Explore",
+              title: "!polly usepreset kanye",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Alternatively, you can use a pre-generated dialect. Try kanye/beemovie/discord!",
               image:
                 "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
             },
             {
-              title: "Explore",
+              title: "!polly say",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Get Polly to say something (hopefully) humorous. *Cue laughter*",
               image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg"
             },
             {
-              title: "Explore",
+              title: "!polly meme",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Polly will search through the interwebs and hand-pick a meme for you. Weird GIFS ensue.",
               image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg"
             }
           ]}

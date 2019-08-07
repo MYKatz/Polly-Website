@@ -14,7 +14,7 @@ function App(props) {
           <Navbar
             color="white"
             spaced={true}
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo="https://polly-assets2.s3.amazonaws.com/logo/black.png"
           />
 
           <Switch>
@@ -41,7 +41,7 @@ function App(props) {
           <Footer
             color="light"
             size="normal"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo="https://polly-assets2.s3.amazonaws.com/logo/black.png"
             copywrite="© 2019 Matt Katz"
           />
         </>

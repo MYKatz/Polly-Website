@@ -2,6 +2,7 @@ import React from "react";
 import Section from "./../Section";
 import SectionHeader from "./../SectionHeader";
 import SectionButton from "./../SectionButton";
+import DiscordMessage from "./../DiscordMessage";
 import "./styles.scss";
 
 function HeroSection(props) {
@@ -26,7 +27,18 @@ function HeroSection(props) {
           <div className="column is-1" />
           <div className="column">
             <figure className="HeroSection__image image">
-              <img src={props.image} alt="Illustration" />
+              <DiscordMessage
+                username="Katz"
+                isBot={false}
+                time="Last thursday"
+                body="!polly say"
+              />
+              <DiscordMessage
+                username="Polly"
+                isBot={true}
+                time="Right now"
+                body="Hello"
+              />
             </figure>
           </div>
         </div>

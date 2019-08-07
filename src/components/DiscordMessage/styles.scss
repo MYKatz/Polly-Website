@@ -1,0 +1,41 @@
+.discordmsg {
+  background-color: #36393f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.discordavatar {
+  height: 40px !important;
+  width: 40px !important;
+  display: initial !important;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.discordnick {
+  margin-top: -3px;
+}
+
+.discordname {
+  font-weight: bold;
+}
+
+.discordbottag {
+  background-color: #7289da;
+  color: #fff;
+  margin-left: 0.4rem;
+  border-radius: 3px;
+  font-size: 0.725rem;
+  padding: 0.075rem 0.275rem;
+}
+
+.discorddatetime {
+  color: hsla(0, 0%, 100%, 0.2);
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+}
+
+.discordreactions {
+}

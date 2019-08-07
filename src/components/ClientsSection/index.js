@@ -17,24 +17,9 @@ function ClientsSection(props) {
         <Clients
           items={[
             {
-              name: "Instagram",
-              image: "https://uploads.divjoy.com/logo-instagram.svg",
-              width: "150px"
-            },
-            {
-              name: "Slack",
-              image: "https://uploads.divjoy.com/logo-slack.svg",
-              width: "135px"
-            },
-            {
-              name: "Tinder",
-              image: "https://uploads.divjoy.com/logo-tinder.svg",
-              width: "90px"
-            },
-            {
-              name: "Spotify",
-              image: "https://uploads.divjoy.com/logo-spotify.svg",
-              width: "135px"
+              name: "DBL",
+              image: "https://polly-assets2.s3.amazonaws.com/lists/dblnew.png",
+              width: "70px"
             }
           ]}
         />
