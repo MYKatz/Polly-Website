@@ -4,6 +4,8 @@
   padding-bottom: 20px;
   padding-right: 15px;
   display: flex;
+  color: white;
+  text-align: left;
 }
 
 .discordavatar {
@@ -45,4 +47,10 @@
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.discordchannelreference {
+  color: #7289da;
+  background-color: rgba(114, 137, 218, 0.1);
+  margin-right: 0.6rem;
 }

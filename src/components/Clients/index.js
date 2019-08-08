@@ -6,9 +6,11 @@ function Clients(props) {
     <div className="columns is-centered is-multiline">
       {props.items.map((item, index) => (
         <div className="column is-narrow has-text-centered" key={index}>
-          <div className="Clients__logo">
-            <img src={item.image} width={item.width} alt={item.name} />
-          </div>
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <div className="Clients__logo">
+              <img src={item.image} width={item.width} alt={item.name} />
+            </div>
+          </a>
         </div>
       ))}
     </div>

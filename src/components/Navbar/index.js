@@ -17,14 +17,6 @@ function Navbar(props) {
               <img className="image navimg" src={props.logo} alt="Logo" />
             </Link>
           </div>
-          <div
-            className={"navbar-burger burger" + (menuOpen ? " is-active" : "")}
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            <span />
-            <span />
-            <span />
-          </div>
         </div>
       </div>
     </NavbarContainer>

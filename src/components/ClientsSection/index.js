@@ -19,7 +19,8 @@ function ClientsSection(props) {
             {
               name: "DBL",
               image: "https://polly-assets2.s3.amazonaws.com/lists/dblnew.png",
-              width: "70px"
+              width: "70px",
+              link: "https://discordbots.org/bot/592958984730837002"
             }
           ]}
         />

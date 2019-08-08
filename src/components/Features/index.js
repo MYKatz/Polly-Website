@@ -1,4 +1,5 @@
 import React from "react";
+import DiscordMessage from "./../DiscordMessage";
 import "./styles.scss";
 
 function Features(props) {
@@ -12,12 +13,19 @@ function Features(props) {
             </h3>
             <p className="subtitle">{item.description}</p>
           </div>
-          <div className="column">
-            <img
-              className="Features__no-classname"
-              src={item.image}
-              alt={item.title}
-            />
+          <div className="column messagecontainer">
+            {item.messages &&
+              item.messages.map((item, index) => (
+                <DiscordMessage
+                  username={item.username}
+                  isBot={item.isBot}
+                  time={item.time}
+                  body={item.body}
+                  embed={item.embed}
+                  avatar={item.avatar}
+                  reactions={item.reactions || []}
+                />
+              ))}
           </div>
         </div>
       ))}

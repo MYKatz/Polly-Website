@@ -14,9 +14,9 @@ function HomePage(props) {
       <HeroSection
         color="dark"
         size="medium"
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
-        buttonText="Get Started"
+        title="A cleverbot that learns from you"
+        subtitle="Polly uses machine learning techniques to mimic your server's unique dialect. Install it on your server today - all it takes is one click!"
+        buttonText="Alright, I'm in!"
         image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
         buttonOnClick={() => {
           router.push("/pricing");
@@ -27,7 +27,7 @@ function HomePage(props) {
         color="white"
         size="medium"
         title="Commands"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+        subtitle=""
       />
       <CtaSection
         color="dark"

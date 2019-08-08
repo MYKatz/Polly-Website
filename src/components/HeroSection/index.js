@@ -16,13 +16,11 @@ function HeroSection(props) {
               subtitle={props.subtitle}
               size={1}
             />
-            <SectionButton
-              parentColor={props.color}
-              size="medium"
-              onClick={props.buttonOnClick}
-            >
-              {props.buttonText}
-            </SectionButton>
+            <a href="https://discordapp.com/oauth2/authorize?client_id=592958984730837002&permissions=117760&scope=bot">
+              <SectionButton parentColor={props.color} size="medium">
+                {props.buttonText}
+              </SectionButton>
+            </a>
           </div>
           <div className="column is-1" />
           <div className="column">
@@ -38,7 +36,7 @@ function HeroSection(props) {
                 username="Polly"
                 isBot={true}
                 time="Right now"
-                body="Hello"
+                body='Want me "Are you say Im bout Cool Water? That right in the only focus on a festival'
                 avatar="https://github.com/MYKatz/Polly/raw/master/img/polly.png"
                 reactions={[
                   {
