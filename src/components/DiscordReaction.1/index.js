@@ -1,5 +1,4 @@
 import React from "react";
-import DiscordReaction from "./../DiscordReaction";
 import "./styles.scss";
 
 function DiscordMessage(props) {
@@ -14,10 +13,9 @@ function DiscordMessage(props) {
         </div>
         <div class="discordbody">{props.body}</div>
         <div class="discordreactions">
-          {props.reactions &&
-            props.reactions.map((item, index) => (
-              <DiscordReaction emoji={item.emoji} num={item.num} />
-            ))}
+          {props.reactions.map((item, index) => (
+            <div class="discordreaction" />
+          ))}
         </div>
       </div>
     </div>

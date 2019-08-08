@@ -32,12 +32,24 @@ function HeroSection(props) {
                 isBot={false}
                 time="Last thursday"
                 body="!polly say"
+                avatar="https://pbs.twimg.com/profile_images/1009305542026657792/iZg9qfK7_400x400.jpg"
               />
               <DiscordMessage
                 username="Polly"
                 isBot={true}
                 time="Right now"
                 body="Hello"
+                avatar="https://github.com/MYKatz/Polly/raw/master/img/polly.png"
+                reactions={[
+                  {
+                    emoji: "🐦",
+                    num: 6
+                  },
+                  {
+                    emoji: "🔥",
+                    num: 69
+                  }
+                ]}
               />
             </figure>
           </div>
