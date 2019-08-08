@@ -43,11 +43,17 @@ function HeroSection(props) {
                 reactions={[
                   {
                     emoji: "🐦",
-                    num: 6
+                    num: 6,
+                    clicked: true
                   },
                   {
                     emoji: "🔥",
                     num: 69
+                  },
+                  {
+                    emoji: "🌲",
+                    num: 23,
+                    clicked: false
                   }
                 ]}
               />

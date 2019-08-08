@@ -16,7 +16,11 @@ function DiscordMessage(props) {
         <div class="discordreactions">
           {props.reactions &&
             props.reactions.map((item, index) => (
-              <DiscordReaction emoji={item.emoji} num={item.num} />
+              <DiscordReaction
+                emoji={item.emoji}
+                num={item.num}
+                clicked={item.clicked}
+              />
             ))}
         </div>
       </div>
