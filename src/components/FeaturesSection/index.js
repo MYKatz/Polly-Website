@@ -19,7 +19,7 @@ function FeaturesSection(props) {
             {
               title: "!polly setup #channel",
               description:
-                "Polly learns from your server's chatlogs to provide an experience unique to each server",
+                "Polly learns from your channel(s)' chatlogs to provide an experience unique to each server. As you write more, it learns more!",
               messages: [
                 {
                   username: "Katz",
@@ -49,7 +49,7 @@ function FeaturesSection(props) {
             {
               title: "!polly usepreset [preset]",
               description:
-                "Alternatively, you can use a pre-generated dialect. Try kanye/beemovie/discord!",
+                "Alternatively, you can use a pre-generated dialect. Try kanye/beemovie/discord! More presets coming soon!",
               messages: [
                 {
                   username: "Katz",

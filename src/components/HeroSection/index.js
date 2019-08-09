@@ -28,7 +28,7 @@ function HeroSection(props) {
               <DiscordMessage
                 username="Katz"
                 isBot={false}
-                time="Last thursday"
+                time="Right now"
                 body="!polly say"
                 avatar="https://pbs.twimg.com/profile_images/1009305542026657792/iZg9qfK7_400x400.jpg"
               />

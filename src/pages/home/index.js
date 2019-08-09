@@ -15,7 +15,7 @@ function HomePage(props) {
         color="dark"
         size="medium"
         title="A cleverbot that learns from you"
-        subtitle="Polly uses machine learning techniques to mimic your server's unique dialect. Install it on your server today - all it takes is one click!"
+        subtitle="Polly uses machine learning techniques to mimic your server's unique vocabulary. Install it on your server today - all it takes is one click!"
         buttonText="Alright, I'm in!"
         image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
         buttonOnClick={() => {
